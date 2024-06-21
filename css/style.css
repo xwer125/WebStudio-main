@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: #2196F3;
+    --white: #fff;
+    --black:  #2F303A;
+}
+
+body{
+    font-family: Roboto;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    padding-top: 0px;
+    padding-bottom: 13px;
+}
+
+main{
+    padding-top: 67px;
+    padding-bottom: 94;
+}
+
+.footer{
+    padding-bottom: 60px;
+}
+
